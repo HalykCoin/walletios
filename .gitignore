@@ -6,6 +6,9 @@
 build/
 DerivedData/
 
+## Ignore when build
+.DS_Store
+
 ## Various settings
 *.pbxuser
 !default.pbxuser
@@ -28,13 +31,25 @@ xcuserdata/
 *.dSYM.zip
 *.dSYM
 
+## Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# Packages/
+# Package.pins
+# Package.resolved
+.build/
+
 # CocoaPods
 #
 # We recommend against adding the Pods directory to your .gitignore. However
 # you should judge for yourself, the pros and cons are mentioned at:
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
-# Pods/
+Pods/
 
 # Carthage
 #
@@ -55,9 +70,14 @@ fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
 
-# Code Injection
-#
-# After new code Injection tools there's a generated folder /iOSInjectionProject
-# https://github.com/johnno1962/injectionforxcode
+#R
+*.generated.swift
 
-iOSInjectionProject/
+#Localization
+Trust.zip
+Trust-Localizable.zip
+
+
+*.mobileprovision
+
+*.cer

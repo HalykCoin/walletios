@@ -1,0 +1,102 @@
+"transactions.noTransactions" = "Пока еще нет транзакций!";
+
+"welcome.importWallet" = "ИМПОРТИРОВАТЬ АККАУНТ";
+"welcome.createWallet" = "СОЗДАТЬ АККАУНТ";
+"Welcome.PrivateAndSecure" = "Закрытый и Защищенный";
+"Welcome.PrivateKeysNeverLeaveDevice" = "Закрытый ключ никогда не утечет с вашего устройства";
+"Welcome.UltraReliable" = "Официальный";
+"Welcome.FastExperience" = "Самый быстрый способ начать использовать Халыккоин на мобильном устройстве";
+"Welcome.title" = " ";
+
+"export.noBackup.title" = "Резервная копия";
+"export.controlYourMoney.title" = "Так как только вы управляете своими средствами, вам необходимо создать резервную копию аккаунта для сохранения ваших средств в случае удаления данного приложения.";
+"export.neverStored.title" = " ";
+"export.backupButton.title" = "Создать резервную копию";
+"export.doItLater.title" = "Создать позже";
+"export.watchout.title" = "Осторожно!";
+"export.watchout.text" = "Если это устройство будет утеряно или приложение будет удалено, ни ваш аккаунт ни ваши средства не смогут быть восстановлены и будут навсегда утеряны.";
+"export.watchout.iunderstand" = "Я понимаю";
+"export.presentBackupOptions" = "Подготовка резервной копии...";
+
+"import.key.invalid" = "Ключ должен быть длиной 255";
+"import.enterKey" = "Введите ключ аккаунта";
+"import.enterKey.instruction" = "Вы можете получить доступ к аккаунту с помощью ключа, который вы получили после создания либо резервного копирования аккаунта";
+"import.enterKey.placeholder" = "Вы можете ввести ключ вручную здесь";
+"import.choseFile" = "Загрузить файл с ключем";
+"importWallet.title" = "Импортировать аккаунт";
+"importWallet.importButton" = "Импортировать";
+
+"wallet.creating.message" = "Создание аккаунта...";
+"wallet.tabs.transactions" = "Операции";
+"wallet.tabs.tokens" = "Токены";
+"wallet.tabs.about" = "О программе";
+
+"Generic.Cancel" = "Отмена";
+"Generic.Send" = "Отправить";
+"Generic.Receive" = "Получить";
+"Generic.Refresh" = "Обновить";
+"Generic.Loading" = "Загрузка";
+"Generic.Retry" = "Повторить";
+"Generic.ScanQR" = "Сканировать QR-код";
+"Generic.Next" = "Далее";
+"Generic.Paste" = "Вставить";
+
+"transactions.myAddress" = "Мой адрес";
+"transactionsEmpty.deposit" = "Пополнить";
+"transactions.title.today" = "Сегодня";
+"transactions.title.yesterday" = "Вчера";
+"transactions.status.received" = "Получено";
+"transactions.status.sent" = "Отправлено";
+"transactions.status.pending" = "Обработка";
+
+"about.title" = "Халыккоин Keeper";
+"about.description" = "Официальное приложение для работы с Халыккоин.";
+
+"Settings.Title" = "Главное меню";
+"settings.backup" = "Резервная копия";
+"Settings.KeepItSecure" = "Храните копию надежно и ограничьте от посторонних";
+"settings.backupKeystore" = "Создать резервную копию";
+"Settings.Security" = "Безопасность";
+"settings.biometricsEnabled" = "Пароль / %@";
+"settings.biometricsDisabled" = "Пароль";
+"settings.biometrics.faceId" = "FaceID";
+"settings.biometrics.touchId" = "Отпечаток пальца";
+"Settings.Version" = "Версия";
+"settings.biometrics.use.fingerprint" = "Используйте отпечаток пальца чтобы открыть аккаунт";
+"Settings.passcode.title" = "Создать код-пароль";
+"Settings.passcode.create" = "Введите новый код-пароль";
+"Settings.passcode.reenter" = "Повторите снова код-пароль";
+"Settings.passcode.mismatch" = "Код-пароль не совпадает. Повторите";
+"Settings.passcode.enter" = "Введите код-пароль";
+"Settings.passcode.incorrect" = "Неверный код-пароль. Повторите";
+"Settings.wallet.title" = "Аккаунт";
+"Settings.wallet.button" = "Сменить аккаунт";
+"Settings.switch.watchout.text" = "Данное действие отключит данное устройство от вашего текущего аккаунта, рекомендуемо создать его резервную копию перед продолжением иначе вы рискуете потерять ваши средства.";
+"Settings.switch.watchout.iunderstand" = "Продолжить";
+"Settings.wallet.changed" = "Смена аккаунта успешна";
+
+"Send.MyEthereumAddressIs" = "Мой %@ адрес: %@";
+"request.headlineTitle" = "Мой %@ адрес аккаунта";
+"request.copyWalletText" = "Копировать адрес аккаунта";
+"request.addressCopiedText" = "Адрес скопирован";
+
+"send.recipientPurchaseId" = "Payment ID получателя";
+"send.recipientAddress" = "Адрес получателя";
+"Send.AmountPlaceholder" = "Сумма";
+"send.paymentId.invalid" = "Неверный Payment Id";
+"send.address.invalid" = "Неверный адрес Халыккоина";
+"send.amount.invalid" = "Обязательное поле";
+"send.emptyClipBoard" = "Буфер обмена пуст";
+"send.wrongInput" = "Неверые данные";
+
+"confirmPayment.from" = "С вашего аккаунта";
+"confirmPayment.to" = "На аккаунт";
+"confirmPayment.purchaseId" = "Payment Id";
+"confirmPayment.title" = "Подтвердить";
+"confirmPayment.sent.message" = "Успешно отправлено!";
+
+"deposit.comingSoon.title" = "Купить Халыккоины";
+"deposit.comingSoon.text" = "Пожалуйста перейдите на официальную страницу https://halykcoin.org для дальнейших инструкций";
+
+"errorView.descriptionLabel" = "Произошла ошибка... Повторите запрос.";
+

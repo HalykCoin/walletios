@@ -1,0 +1,49 @@
+platform :ios, '9.0'
+inhibit_all_warnings!
+source 'https://github.com/CocoaPods/Specs.git'
+  use_frameworks!
+
+target 'Trust' do
+
+  pod 'BigInt', '~> 3.0'
+  pod 'R.swift'
+  pod 'JSONRPCKit', :git=> 'https://github.com/bricklife/JSONRPCKit.git'
+  pod 'APIKit'
+  pod 'Geth'
+  pod 'Eureka', '~> 4.0.1'
+  pod 'MBProgressHUD'
+  pod 'StatefulViewController'
+  pod 'QRCodeReaderViewController', :git=>'https://github.com/yannickl/QRCodeReaderViewController.git', :branch=>'master'
+  pod 'KeychainSwift'
+  pod 'SwiftLint'
+  pod 'SeedStackViewController'
+  pod 'RealmSwift'
+  pod 'BonMot', '~> 5.0'
+  pod 'VENTouchLock'
+  pod '1PasswordExtension'
+  pod 'Lokalise'
+  pod 'Moya', '~> 10.0.1'
+  pod 'JavaScriptKit' 
+  pod 'CryptoSwift', :git=>'https://github.com/krzyzanowskim/CryptoSwift', :branch=>'master'
+
+  target 'TrustTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'TrustUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    if ['JSONRPCKit'].include? target.name
+      target.build_configurations.each do |config|
+        config.build_settings['SWIFT_VERSION'] = '3.0'
+      end
+    end
+  end
+end

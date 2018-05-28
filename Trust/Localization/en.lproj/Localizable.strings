@@ -1,0 +1,104 @@
+"transactions.noTransactions" = "No Transactions Yet!";
+
+"welcome.importWallet" = "IMPORT ACCOUNT";
+"welcome.createWallet" = "CREATE ACCOUNT";
+"Welcome.PrivateAndSecure" = "Secure storage";
+"Welcome.PrivateKeysNeverLeaveDevice" = "Store, send and receive HLC in the safest way.";
+"Welcome.UltraReliable" = "Always with you";
+"Welcome.FastExperience" = "The fastest Halykcoin experience on mobile";
+"Welcome.title" = " ";
+
+"export.noBackup.title" = "Backup";
+"export.controlYourMoney.title" = "Save your key on media or cloud storage. It will be necessary to restore access to this account. Otherwise, you risk losing your account and all the funds available on it";
+"export.neverStored.title" = " ";
+"export.backupButton.title" = "Backup Account";
+"export.doItLater.title" = "Do it later";
+"export.watchout.title" = "Watch out!";
+"export.watchout.text" = "If you lose your phone or remove your account, you will not be able to restore access to your coins without a backup of your account";
+"export.watchout.iunderstand" = "Do not backup";
+"export.presentBackupOptions" = "Creating backup...";
+
+"import.key.invalid" = "Key must be 255 characters long";
+"import.enterKey" = "Insert key of account";
+"import.enterKey.instruction" = "You can restore access to your account by entering the key that you got after your account has been generated";
+"import.enterKey.placeholder" = "You can type key here";
+"import.choseFile" = "Chose from file";
+"importWallet.title" = "Import Account";
+"importWallet.importButton" = "Import";
+
+"wallet.creating.message" = "Creating account...";
+"wallet.tabs.transactions" = "Transactions";
+"wallet.tabs.tokens" = "Tokens";
+"wallet.tabs.about" = "About";
+
+"Generic.Cancel" = "Cancel";
+"Generic.Send" = "Send";
+"Generic.Receive" = "Receive";
+"Generic.Refresh" = "Refresh";
+"Generic.Loading" = "Loading";
+"Generic.Retry" = "Retry";
+"Generic.ScanQR" = "Scan QR-code";
+"Generic.Next" = "Next";
+"Generic.Paste" = "Paste";
+
+"transactions.myAddress" = "My Address";
+"transactionsEmpty.deposit" = "Buy HLC";
+"transactions.title.today" = "Today";
+"transactions.title.yesterday" = "Yesterday";
+"transactions.status.received" = "Received";
+"transactions.status.sent" = "Sent";
+"transactions.status.pending" = "Pending";
+
+"about.title" = "Halykcoin Keeper";
+"about.description" = "The official app to work with Halykcoin.";
+
+"Settings.Title" = "Main menu";
+"settings.backup" = "Backup";
+"Settings.KeepItSecure" = "Keep it safe from anyone.";
+"settings.backupKeystore" = "Backup Private Key";
+"Settings.Security" = "Security";
+"settings.biometricsEnabled" = "Passcode / %@";
+"settings.biometricsDisabled" = "Passcode";
+"settings.biometrics.faceId" = "FaceID";
+"settings.biometrics.touchId" = "Touch ID";
+"Settings.Version" = "Version";
+"settings.biometrics.use.fingerprint" = "Use your fingerprint to access your account";
+"Settings.passcode.title" = "Set passcode";
+"Settings.passcode.create" = "Enter a new passcode";
+"Settings.passcode.reenter" = "Please re-enter your passcode";
+"Settings.passcode.mismatch" = "Passcode did not match. Try again";
+"Settings.passcode.enter" = "Enter passcode";
+"Settings.passcode.incorrect" = "Incorrect passcode. Try again";
+"Settings.wallet.title" = "Account";
+"Settings.wallet.button" = "Switch account";
+"Settings.switch.watchout.text" = "This action will disconnect you from current account, you must backup your account before switching to another, otherwise you may lose it with all it's founds.";
+"Settings.switch.watchout.iunderstand" = "Continue";
+"Settings.wallet.changed" = "Account is successfully changed";
+
+"Send.MyEthereumAddressIs" = "My %@ address is: %@";
+"request.headlineTitle" = "My %@ address";
+"request.copyWalletText" = "Copy address";
+"request.addressCopiedText" = "Address copied";
+
+"send.recipientPurchaseId" = "Recipient Payment ID";
+"send.recipientAddress" = "Recipient Address";
+"Send.AmountPlaceholder" = "Amount";
+"send.paymentId.invalid" = "Invalid Halykcoin Purchase ID";
+"send.address.invalid" = "Invalid Halykcoin Address";
+"send.amount.invalid" = "Field required!";
+"send.emptyClipBoard" = "Empty ClipBoard";
+"send.wrongInput" = "Wrong Input";
+
+"confirmPayment.from" = "From";
+"confirmPayment.to" = "To";
+"confirmPayment.purchaseId" = "Payment Id";
+"confirmPayment.title" = "Confirm";
+"confirmPayment.sent.message" = "Successfully sent!";
+
+"deposit.comingSoon.title" = "Buy Halykcoins";
+"deposit.comingSoon.text" = "Please visit https://halykcoin.org for information";
+
+"errorView.descriptionLabel" = "Something went wrong... Try again.";
+
+
+
